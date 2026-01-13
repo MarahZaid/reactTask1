@@ -14,6 +14,7 @@ button{
 }
 .menuList {
   display: flex;
+  justify-content: end;
 }
 .menuBtn {
   display: none;

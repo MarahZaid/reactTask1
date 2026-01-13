@@ -9,7 +9,8 @@ export default function Navbar() {
                     <div className="site-Name col-lg-4 col-md-4 col-sm-5 col-8">
                         <h2 className={`fw-bold text-white mt-1 ${style.titleSize}`}>START BOOTSTRAP</h2>
                     </div>
-                    <div className="menu col-4 d-none d-lg-block">
+                    
+                    <div className="menu col-4 d-lg-block d-none">
                         <ul className={`list-unstyled gap-5 fw-bold pt-2 ${style.menuList}`}>
                             <li><a href="#">PORTFOLIO</a></li>
                             <li><a href="#">ABOUT</a></li>
