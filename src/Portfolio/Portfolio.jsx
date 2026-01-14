@@ -21,23 +21,23 @@ export default function Portfolio() {
                     </div>
 
                 </div>
-                <div className={`${style.portfolioContent} row row-cols-lg-3 g-4 pt-4 gy-5 row-cols-1 row-cols-md-2 justify-content-center align-items-center`}>
-                    <div className="col">
+                <div className={`${style.portfolioContent} row row-cols-lg-3 g-4 pt-4 gy-5 row-cols-1 row-cols-md-2 justify-content-center`}>
+                    <div className="col d-flex justify-content-center">
                         <img src={Img1} alt="Cabin" />
                     </div>
-                    <div className="col">
+                    <div className="col d-flex justify-content-center">
                         <img src={Img2} alt="Cake" />
                     </div>
-                    <div className="col">
+                    <div className="col d-flex justify-content-center">
                         <img src={Img3} alt="Circus" />
                     </div>
-                    <div className="col">
+                    <div className="col d-flex justify-content-center">
                         <img src={Img4} alt="Game" />
                     </div>
-                    <div className="col">
+                    <div className="col d-flex justify-content-center">
                         <img src={Img5} alt="Safe" />
                     </div>
-                    <div className="col">
+                    <div className="col d-flex justify-content-center">
                         <img src={Img6} alt="Submarine" />
                     </div>
                 </div>
